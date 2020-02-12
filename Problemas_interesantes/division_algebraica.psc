@@ -1,6 +1,6 @@
-//función que coger como entrada un arreglo(coeficientes del polinomio desde el coeficiente del "x" de mayor grado
-//hasta el término independiente) y un número (el grado del polinomio) y , 
-//así dar como respuesta el polinomio en forma textual
+//funciÃ³n que coger como entrada un arreglo(coeficientes del polinomio desde el coeficiente del "x" de mayor grado
+//hasta el tÃ©rmino independiente) y un nÃºmero (el grado del polinomio) y , 
+//asÃ­ dar como respuesta el polinomio en forma textual
 SubProceso  text<-polinomio ( coefinv , n)
 	Definir polin,aux,aux2,aux3 como caracter
 	Dimension coef[1000]
@@ -60,7 +60,8 @@ SubProceso  text<-polinomio ( coefinv , n)
 	Fin Para
 	text<-polin
 Fin SubProceso
-Proceso División_Algebraica_2
+
+Proceso Division_Algebraica_2
 	Dimension a[100],b[100],q[100]
 	Definir m,n Como Real
 	Definir i,j,k,g,g2 como entero
@@ -72,7 +73,7 @@ Proceso División_Algebraica_2
 			Escribir "ERROR. Debe ser entero positivo menor que 100"
 		Fin Si
 	Hasta Que m>0 Y m<100 y trunc(m)=m
-	Escribir "Ingrese en orden los coeficientes del numerador, desde el coeficiente del ´x´ con mayor grado hasta el término independiente"
+	Escribir "Ingrese en orden los coeficientes del numerador, desde el coeficiente del Â´xÂ´ con mayor grado hasta el tÃ©rmino independiente"
 	Para i<-1 Hasta m+1 Con Paso 1 Hacer
 		Escribir "Coeficiente #" i
 		Si i=1 Entonces
@@ -88,14 +89,14 @@ Proceso División_Algebraica_2
 		Fin Si
 	Fin Para
 	Escribir "El numerador ingresado es" polinomio(a,m)
-	Escribir "Ingrese el grado del denominador (entero positivo menor que 100), además el grado del denominador debe ser MENOR O IGUAL al del numerador"
+	Escribir "Ingrese el grado del denominador (entero positivo menor que 100), ademÃ¡s el grado del denominador debe ser MENOR O IGUAL al del numerador"
 	Repetir
 		Leer n
 		Si n<=0 o n>m o trunc(n)<>n Entonces
 			Escribir "ERROR. Debe ser entero positivo menor o igual que el grado del numerador"
 		Fin Si
 	Hasta Que n>0 Y n<=m y trunc(n)=n
-	Escribir "Ingrese en orden los coeficientes del denominador, desde el coeficiente del ´x´ con mayor grado hasta el término independiente"
+	Escribir "Ingrese en orden los coeficientes del denominador, desde el coeficiente del Â´xÂ´ con mayor grado hasta el tÃ©rmino independiente"
 	Para i<-1 Hasta n+1 Con Paso 1 Hacer
 		Escribir "Coeficiente #" i
 		Si i=1 Entonces
@@ -111,7 +112,7 @@ Proceso División_Algebraica_2
 		Fin Si
 	Fin Para
 	Escribir "El denominador ingresado es" polinomio(b,n)
-	//División algebraica
+	//DivisiÃ³n algebraica
 	i<-1
 	g<-m-n
 	g2<-m
@@ -125,7 +126,7 @@ Proceso División_Algebraica_2
 		m<-m-1
 		i<-i+1
 	Fin Mientras
-	//Eliminar los ceros del arreglo del residuo(el siguinte paso no es tan necesario, es solo para la estética)
+	//Eliminar los ceros del arreglo del residuo(el siguinte paso no es tan necesario, es solo para la estÃ©tica)
 	i<-1
 	Mientras i<=g2+1 Hacer
 		Si a[i]=0 y i<>g2+1 Entonces
@@ -143,7 +144,7 @@ Proceso División_Algebraica_2
 		Fin Si
 		i<-i+1
 	Fin Mientras
-	//Presentación de los datos
+	//PresentaciÃ³n de los datos
 	Escribir "El cociente es" polinomio(q,g)
 	Si g2+1<>0 Entonces
 		Escribir "El residuo es" polinomio(a,g2)
