@@ -36,15 +36,15 @@ int main() {
 			printf("ERROR. Debe ser positivo y entero. Vuelva a escribir el grado\n");
 		}
 	} while (!(n>0 && int(n)==n));
-	printf("Ingrese los coeficientes en forma ordenada, desde el t�rmino independiente hasta el de la variable con mayor grado\n");
+	printf("Ingrese los coeficientes en forma ordenada, desde el término independiente hasta el de la variable con mayor grado\n");
 	for (i=1;i<=n+1;i+=1) {
 		printf("Escribir el coeficiente # %i\n",i);
 		if (i==n+1) {
-			printf("Recuerde que este �ltimo coeficiente debe ser diferente de 0\n");
+			printf("Recuerde que este último coeficiente debe ser diferente de 0\n");
 		}
 		scanf("%i",&coef[i-1]);
 		if (i==n+1 && coef[i-1]==0) {
-			printf("ERROR. El �ltimo coeficiente debe ser diferente de 0. Reinicie el programa\n");
+			printf("ERROR. El último coeficiente debe ser diferente de 0. Reinicie el programa\n");
 			sigue = false;
 		}
 		if (i==1) {
@@ -56,7 +56,7 @@ int main() {
 		}
 	}
 	if (sigue) {
-		printf("El coeficiente m�ximo es %f\n",max);
+		printf("El coeficiente máximo es %f\n",max);
 		polin = "";
 		for (i=n+1;i>=1;i-=1) {
 			switch (coef[i-1]) {
@@ -107,7 +107,7 @@ int main() {
 			}
 		}
 		printf("El polinimio es %s\n",polin);
-		printf("Ingrese el n�mero en el que desea evaluar el polinomio\n");
+		printf("Ingrese el número en el que desea evaluar el polinomio\n");
 		scanf("%f",&x);
 		num = 0;
 		pot = 1;
