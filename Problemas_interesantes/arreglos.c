@@ -12,7 +12,7 @@ void esperar(double t);
 /* Para leer variables de texto se utiliza scanf, que lee solo una palabra. 
    Para leer una linea completa (es decir, incluyendo los espacios en blanco)
    se debe utilzar ges (ej, reemplazar scanf("%s",x) por gets(x)) pero 
-   obliga a agregar un getchar() antes del gets si antes del mismo se ley�
+   obliga a agregar un getchar() antes del gets si antes del mismo se leyó
    otra variable con scanf. */
 
 int main() {
