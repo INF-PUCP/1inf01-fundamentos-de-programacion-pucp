@@ -1,7 +1,7 @@
 Proceso numero_ceros_factorial
 	Definir n,fact como entero
 	Repetir
-		Escribir "Ingrese un número entero no negativo"
+		Escribir "Ingrese un nÃºmero entero no negativo"
 		Leer n
 	Hasta Que n>=0
 	si n<=4
