@@ -1,37 +1,21 @@
 #include<stdio.h>
 #include<math.h>
-#include<stdbool.h>
 
 int main() {
-	int i;
 	int n;
-	bool primo;
-	int r;
 	do {
-		printf("Ingrese un numero entero no negativo\n");
-		scanf("%i",&n);
-	} while (n<0);
-	primo = true;
-	if (n<2) {
-		printf("El numero no es entero\n");
-	} else {
-		if (n>2 && n%2==0) {
-			primo = false;
-		}
-		r = int(sqrtf(n));
-		i = 3;
-		while (i<=r && primo) {
-			if (n%i==0) {
-				primo = false;
-			} else {
-				i = i+2;
-			}
-		}
-	}
-	if (primo) {
-		printf("%i es primo\n",n);
-	} else {
-		printf("%i no es  primo\n",n);
-	}
+		printf("Ingrese un numero entero no negativo: ");
+		scanf("%d",&n);
+	} while (n < 0);
+	int primo = 1;
+	if (n < 2) primo =  0; // 0 y 1 no son primos
+	// Supongamos que n = a * b es un numero compuesto y al menos a o b son distintos de 1 y n
+	// Luego, alguno de ellos es menor o igual que la raiz de n
+	// Por lo tanto, si es que encuentras algun numero que divida a n antes de pasar su raiz
+	// n necesariamente es un numero compuesto, en otro caso, es primo
+	// Complejidad en tiempo: O(sqrt(n))
+	for (int i = 2; i * i <= n; i++) if (n % i == 0) primo = 0;
+	if (primo) printf("%d es primo.\n",n);
+	else printf("%d no es  primo.\n",n);
 	return 0;
 }
