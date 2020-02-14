@@ -419,8 +419,7 @@ Subproceso Escalonar_hacia_arriba(mat Por Referencia,m,n)
 	Fin Mientras
 FinSubProceso
 
-Proceso Matrices
-	
+Proceso Algoritmo
 	//Var
 	Definir i,j,k,l,esp1,esp2,p,rango,cont Como Entero
 	Definir m,n Como Real
@@ -598,4 +597,4 @@ Proceso Matrices
 	Sino
 		Escribir "La matriz no es cuadrada. Por lo tanto no tiene determinante ni inversa"
 	FinSi
-FinProceso
+FinAlgoritmo
