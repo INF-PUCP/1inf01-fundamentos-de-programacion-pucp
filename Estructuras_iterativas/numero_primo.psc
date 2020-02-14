@@ -1,4 +1,4 @@
-Proceso numero_primo
+Algoritmo numero_primo
 	Definir n,i,r Como Entero
 	Definir primo como logico
 	Repetir
@@ -27,4 +27,4 @@ Proceso numero_primo
 	Sino
 		Escribir n," no es  primo"
 	FinSi
-FinProceso
+FinAlgoritmo

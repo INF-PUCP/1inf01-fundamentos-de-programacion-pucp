@@ -1,4 +1,4 @@
-Proceso sin_titulo
+Algoritmo capicua
 	definir inv Como Entero
 	definir n Como Entero
 	definir a Como Entero
@@ -16,4 +16,4 @@ Proceso sin_titulo
 	Sino
 		Escribir "El número no es capicua"
 	FinSi
-FinProceso
+FinAlgoritmo

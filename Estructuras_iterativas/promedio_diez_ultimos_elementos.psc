@@ -1,4 +1,4 @@
-Proceso promedio_diez_ultimos
+Algoritmo promedio_diez_ultimos
 	definir i,j,lista,num como entero
 	Dimension lista[10]
 	definir primo Como Real
@@ -33,4 +33,4 @@ Proceso promedio_diez_ultimos
 		i<-i+1
 	FinMientras
 	Escribir "Gracias por su colaboración :)"
-FinProceso
+FinAlgoritmo

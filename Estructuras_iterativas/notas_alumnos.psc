@@ -1,4 +1,4 @@
-Proceso notas_alumnos
+Algoritmo notas_alumnos
 	Definir n,pc,aprob,desaprob,i,j Como Entero
 	Escribir "Ingrese la cantidad de alumnos en el aula."
 	Repetir
@@ -29,5 +29,5 @@ Proceso notas_alumnos
 		Escribir "Nùmero desaprobado: ",desaprob
 		i<-i+1
 	FinMientras
-FinProceso
+FinAlgoritmo
 

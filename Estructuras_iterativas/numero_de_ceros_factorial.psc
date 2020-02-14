@@ -1,4 +1,4 @@
-Proceso numero_ceros_factorial
+Algoritmo numero_ceros_factorial
 	Definir n,fact como entero
 	Repetir
 		Escribir "Ingrese un número entero no negativo"
@@ -9,4 +9,4 @@ Proceso numero_ceros_factorial
 	Sino
 		Escribir "El factorial de ",n," termina en ",trunc(n/5)," ceros"
 	FinSi
-FinProceso
+FinAlgoritmo

@@ -1,4 +1,4 @@
-Proceso ejercicio_3
+Algoritmo misterio
 	Definir  a,n,x,z,i,j,k como entero
 	Definir s Como Real
 	Leer a
@@ -20,4 +20,4 @@ Proceso ejercicio_3
 		i <- i + 1
 	FinMientras
 	Escribir "El valor de s es ",s
-FinProceso
+FinAlgoritmo

@@ -1,4 +1,4 @@
-Proceso busca_palabra_en_oracion
+Algoritmo busca_palabra_en_oracion
 	Definir palabra,oracion Como Caracter
 	Definir cont,i,j como entero
 	Escribir "Ingrese una oracion"
@@ -60,4 +60,4 @@ Proceso busca_palabra_en_oracion
 			Escribir "La palabra *",palabra,"* aparece ",cont," veces en la oracion *",oracion,"*."
 		FinSi
 	FinSi
-FinProceso
+FinAlgoritmo

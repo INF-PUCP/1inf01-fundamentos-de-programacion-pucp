@@ -1,4 +1,4 @@
-Proceso suma_digitos_mayor_par_menor_impar
+Algoritmo suma_digitos_mayor_par_menor_impar
 	Definir n,suma,cont,maxpar,minimpar Como Entero
 	Escribir "Ingrese un nùmero entero positivo"
 	Repetir
@@ -50,4 +50,4 @@ Proceso suma_digitos_mayor_par_menor_impar
 	si minimpar= -1
 		escribir "La suma de dìgitos es ",suma," y el màximo par es ",maxpar
 	FinSi
-	FinProceso
+FinAlgoritmo

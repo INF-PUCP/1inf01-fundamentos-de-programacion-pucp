@@ -3,7 +3,7 @@
 // número, luego el mínimo dígito par deltercero y así sucesivamente.
 // Asuma que el dígito 0 es par.
 // Ejemplo: Si n = 4 y los números ingresados son 1234 5036 361 y 12793, el resultado será 2569
-Proceso ejercicio_2
+Algoritmo minimo_par_maximo_impar
 	//si el número no tiene el dígito mencionado se considerará como 0//
 	Definir nuevo,num,n,minpar,maximpar,i Como Entero
 	Escribir "Ingrese la cantidad (<10) de números enteros positivos que ingresará"
@@ -62,4 +62,4 @@ Proceso ejercicio_2
 		FinSi
 	FinPara
 	Escribir "El número entero formado es ",nuevo
-FinProceso
+FinAlgoritmo

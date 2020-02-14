@@ -1,4 +1,4 @@
-Proceso Arreglos
+Algoritmo Arreglos
 	Dimension Arr[3,3]
 	Definir i,j Como enteros
 	Escribir "Inserte 9 números enteros"
@@ -16,4 +16,4 @@ Proceso Arreglos
 			Escribir Arr[i,j]
 		Fin Para
 	Fin Para
-FinProceso
+FinAlgoritmo

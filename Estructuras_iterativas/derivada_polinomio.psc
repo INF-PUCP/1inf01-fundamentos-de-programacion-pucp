@@ -1,4 +1,4 @@
-Proceso Derivadas
+Algoritmo Derivadas
 	Dimension coef[101]
 	Definir x,n como real
 	Definir i Como Entero
@@ -145,4 +145,4 @@ Proceso Derivadas
 		Fin Para
 		Escribir "La derivada evaluada en " x " es igual a " num
 	Fin Si
-FinProceso
+FinAlgoritmo

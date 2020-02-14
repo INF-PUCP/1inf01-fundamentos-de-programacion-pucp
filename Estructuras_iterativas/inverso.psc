@@ -1,4 +1,4 @@
-Proceso inverso
+Algoritmo inverso
 	Definir num,inv,aux como entero
 	Escribir "Ingrese un nùmero entero positivo"
 	Repetir
@@ -14,4 +14,4 @@ Proceso inverso
 		num <- trunc(num/10)
 	FinMientras
 	Escribir "El inverso del nùmero ",aux," es ",inv
-FinProceso
+FinAlgoritmo
