@@ -419,7 +419,7 @@ Subproceso Escalonar_hacia_arriba(mat Por Referencia,m,n)
 	Fin Mientras
 FinSubProceso
 
-Proceso Algoritmo
+Algoritmo Matrices
 	//Var
 	Definir i,j,k,l,esp1,esp2,p,rango,cont Como Entero
 	Definir m,n Como Real
